@@ -15,7 +15,6 @@ PACES = (
 # (date, title, details)
 SESSIONS = [
     # Block 1, week 1
-    (date(2026, 11, 3), "Easy 6 km", "6 km conversational, 6:00-6:30/km."),
     (date(2026, 11, 5), "Intervals: 6 x 800 m",
      "1.5 km warm-up easy.\n6 x 800 m @ 4:45-4:50/km, 90 s walk between.\n1 km cool-down easy."),
     (date(2026, 11, 7), "parkrun (easy)", "5 km easy, 6:00-6:30/km. Enjoy it."),
