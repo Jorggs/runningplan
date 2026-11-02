@@ -107,7 +107,7 @@ def workout(name: str, blocks, warmup=None, cooldown=None, uid=None) -> bytes:
         body += f_bytes(5, b)
     if cooldown:
         body += f_bytes(6, cooldown)
-    uid = uid or str(uuid.uuid4()).upper()
+    uid = uid or str(uuid.uuid5(uuid.NAMESPACE_URL, "runningplan/" + name)).upper()
     return (f_bytes(9, uid.encode()) + f_bytes(11, body)
             + f_varint(1000, 1) + f_varint(1002, 5))
 
@@ -157,9 +157,15 @@ def build_all():
     return w
 
 
+def slug(name: str) -> str:
+    return "-".join("".join(c if c.isalnum() else " " for c in name.lower()).split())
+
+
 if __name__ == "__main__":
     os.makedirs("workouts", exist_ok=True)
+    for old in os.listdir("workouts"):
+        os.remove(os.path.join("workouts", old))
     for name, data in build_all().items():
-        with open(os.path.join("workouts", name + ".workout"), "wb") as f:
+        with open(os.path.join("workouts", slug(name) + ".workout"), "wb") as f:
             f.write(data)
         print("wrote", name)

@@ -7,6 +7,29 @@ creating a duplicate.
 
 from datetime import date, datetime, timedelta, timezone
 
+from workouts import slug
+
+RAW = "https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/"
+
+# Which Apple Watch workout goes with each session (by date)
+WORKOUT_FOR = {
+    date(2026, 11, 5): "Intervals 6x800m",
+    date(2026, 11, 7): "Easy 5k",
+    date(2026, 11, 8): "Easy 10k",
+    date(2026, 11, 10): "Easy 7k + strides",
+    date(2026, 11, 12): "Tempo 2x2k",
+    date(2026, 11, 14): "parkrun hard",
+    date(2026, 11, 15): "Easy 11k",
+    date(2026, 11, 17): "Easy 7k",
+    date(2026, 11, 19): "Intervals 5x1k",
+    date(2026, 11, 21): "Easy 5k",
+    date(2026, 11, 22): "Long 12k fast finish",
+    date(2026, 11, 24): "Easy 5k",
+    date(2026, 11, 26): "Fartlek 8x1min",
+    date(2026, 11, 28): "parkrun hard",
+    date(2026, 11, 29): "Easy 8k",
+}
+
 # (date, title, details)
 SESSIONS = [
     # Block 1, week 1
@@ -69,6 +92,11 @@ def build() -> str:
         "X-PUBLISHED-TTL:PT6H",
     ]
     for d, title, details in SESSIONS:
+        extra = []
+        if d in WORKOUT_FOR:
+            url = RAW + slug(WORKOUT_FOR[d]) + ".workout"
+            details += f"\n\nApple Watch workout: {url}"
+            extra = [f"URL:{url}", f"ATTACH;FMTTYPE=application/octet-stream:{url}"]
         lines += [
             "BEGIN:VEVENT",
             f"UID:{d:%Y%m%d}-run@runningplan",
@@ -77,6 +105,7 @@ def build() -> str:
             f"DTEND;VALUE=DATE:{d + timedelta(days=1):%Y%m%d}",
             f"SUMMARY:{esc(title)}",
             f"DESCRIPTION:{esc(details)}",
+            *extra,
             "TRANSP:TRANSPARENT",
             "END:VEVENT",
         ]

@@ -9,142 +9,220 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:20261105-run@runningplan
-DTSTAMP:20261102T190350Z
+DTSTAMP:20261102T192900Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:Intervals: 6 x 800m
 DESCRIPTION:1.5k warm-up at 6:00-6:30\nRepeat 6 times:\n800m at 4:45-4:50\n
- 90s walk\n1k warm down
+ 90s walk\n1k warm down\n\nApple Watch workout: https://raw.githubuserconte
+ nt.com/Jorggs/runningplan/main/workouts/intervals-6x800m.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/inte
+ rvals-6x800m.workout
+ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
+ orggs/runningplan/main/workouts/intervals-6x800m.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261107-run@runningplan
-DTSTAMP:20261102T190350Z
+DTSTAMP:20261102T192900Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:parkrun (easy)
-DESCRIPTION:5k at 6:00-6:30
+DESCRIPTION:5k at 6:00-6:30\n\nApple Watch workout: https://raw.githubuserc
+ ontent.com/Jorggs/runningplan/main/workouts/easy-5k.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/easy
+ -5k.workout
+ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
+ orggs/runningplan/main/workouts/easy-5k.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261108-run@runningplan
-DTSTAMP:20261102T190350Z
+DTSTAMP:20261102T192900Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:Long run 10k
-DESCRIPTION:10k at 6:00-6:30
+DESCRIPTION:10k at 6:00-6:30\n\nApple Watch workout: https://raw.githubuser
+ content.com/Jorggs/runningplan/main/workouts/easy-10k.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/easy
+ -10k.workout
+ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
+ orggs/runningplan/main/workouts/easy-10k.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261110-run@runningplan
-DTSTAMP:20261102T190350Z
+DTSTAMP:20261102T192900Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:Easy 7k + strides
 DESCRIPTION:7k at 6:00-6:30\nRepeat 6 times:\n15s stride (fast but relaxed)
- \nWalk back
+ \nWalk back\n\nApple Watch workout: https://raw.githubusercontent.com/Jorg
+ gs/runningplan/main/workouts/easy-7k-strides.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/easy
+ -7k-strides.workout
+ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
+ orggs/runningplan/main/workouts/easy-7k-strides.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261112-run@runningplan
-DTSTAMP:20261102T190350Z
+DTSTAMP:20261102T192900Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Tempo: 2 x 2k
 DESCRIPTION:2k warm-up at 6:00-6:30\nRepeat 2 times:\n2k at 5:10\n2 min eas
- y jog\n1k warm down
+ y jog\n1k warm down\n\nApple Watch workout: https://raw.githubusercontent.
+ com/Jorggs/runningplan/main/workouts/tempo-2x2k.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/temp
+ o-2x2k.workout
+ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
+ orggs/runningplan/main/workouts/tempo-2x2k.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261114-run@runningplan
-DTSTAMP:20261102T190350Z
+DTSTAMP:20261102T192900Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:parkrun (HARD)
-DESCRIPTION:5k full effort at 4:55-5:00
+DESCRIPTION:5k full effort at 4:55-5:00\n\nApple Watch workout: https://raw
+ .githubusercontent.com/Jorggs/runningplan/main/workouts/parkrun-hard.worko
+ ut
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/park
+ run-hard.workout
+ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
+ orggs/runningplan/main/workouts/parkrun-hard.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261115-run@runningplan
-DTSTAMP:20261102T190350Z
+DTSTAMP:20261102T192900Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Long run 11k
-DESCRIPTION:11k at 6:00-6:30
+DESCRIPTION:11k at 6:00-6:30\n\nApple Watch workout: https://raw.githubuser
+ content.com/Jorggs/runningplan/main/workouts/easy-11k.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/easy
+ -11k.workout
+ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
+ orggs/runningplan/main/workouts/easy-11k.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261117-run@runningplan
-DTSTAMP:20261102T190350Z
+DTSTAMP:20261102T192900Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Easy 7k
-DESCRIPTION:7k at 6:00-6:30
+DESCRIPTION:7k at 6:00-6:30\n\nApple Watch workout: https://raw.githubuserc
+ ontent.com/Jorggs/runningplan/main/workouts/easy-7k.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/easy
+ -7k.workout
+ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
+ orggs/runningplan/main/workouts/easy-7k.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261119-run@runningplan
-DTSTAMP:20261102T190350Z
+DTSTAMP:20261102T192900Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Intervals: 5 x 1k
 DESCRIPTION:1.5k warm-up at 6:00-6:30\nRepeat 5 times:\n1k at 4:50-4:55\n90
- s walk\n1k warm down
+ s walk\n1k warm down\n\nApple Watch workout: https://raw.githubusercontent
+ .com/Jorggs/runningplan/main/workouts/intervals-5x1k.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/inte
+ rvals-5x1k.workout
+ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
+ orggs/runningplan/main/workouts/intervals-5x1k.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261121-run@runningplan
-DTSTAMP:20261102T190350Z
+DTSTAMP:20261102T192900Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:parkrun (easy)
-DESCRIPTION:5k at 6:00-6:30
+DESCRIPTION:5k at 6:00-6:30\n\nApple Watch workout: https://raw.githubuserc
+ ontent.com/Jorggs/runningplan/main/workouts/easy-5k.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/easy
+ -5k.workout
+ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
+ orggs/runningplan/main/workouts/easy-5k.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261122-run@runningplan
-DTSTAMP:20261102T190350Z
+DTSTAMP:20261102T192900Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Long run 12k\, fast finish
-DESCRIPTION:9k at 6:00-6:30\n3k at 5:20
+DESCRIPTION:9k at 6:00-6:30\n3k at 5:20\n\nApple Watch workout: https://raw
+ .githubusercontent.com/Jorggs/runningplan/main/workouts/long-12k-fast-fini
+ sh.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/long
+ -12k-fast-finish.workout
+ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
+ orggs/runningplan/main/workouts/long-12k-fast-finish.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261124-run@runningplan
-DTSTAMP:20261102T190350Z
+DTSTAMP:20261102T192900Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Easy 5k
-DESCRIPTION:5k at 6:00-6:30
+DESCRIPTION:5k at 6:00-6:30\n\nApple Watch workout: https://raw.githubuserc
+ ontent.com/Jorggs/runningplan/main/workouts/easy-5k.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/easy
+ -5k.workout
+ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
+ orggs/runningplan/main/workouts/easy-5k.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261126-run@runningplan
-DTSTAMP:20261102T190350Z
+DTSTAMP:20261102T192900Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Fartlek: 8 x 1 min
 DESCRIPTION:1.5k warm-up at 6:00-6:30\nRepeat 8 times:\n1 min at 4:40\n1 mi
- n easy\n1k warm down
+ n easy\n1k warm down\n\nApple Watch workout: https://raw.githubusercontent
+ .com/Jorggs/runningplan/main/workouts/fartlek-8x1min.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/fart
+ lek-8x1min.workout
+ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
+ orggs/runningplan/main/workouts/fartlek-8x1min.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261128-run@runningplan
-DTSTAMP:20261102T190350Z
+DTSTAMP:20261102T192900Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:parkrun (HARD - benchmark)
-DESCRIPTION:5k full effort at 4:55-5:00\nCompare with 14 Nov
+DESCRIPTION:5k full effort at 4:55-5:00\nCompare with 14 Nov\n\nApple Watch
+  workout: https://raw.githubusercontent.com/Jorggs/runningplan/main/workou
+ ts/parkrun-hard.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/park
+ run-hard.workout
+ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
+ orggs/runningplan/main/workouts/parkrun-hard.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261129-run@runningplan
-DTSTAMP:20261102T190350Z
+DTSTAMP:20261102T192900Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Long run 8k
-DESCRIPTION:8k at 6:00-6:30
+DESCRIPTION:8k at 6:00-6:30\n\nApple Watch workout: https://raw.githubuserc
+ ontent.com/Jorggs/runningplan/main/workouts/easy-8k.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/easy
+ -8k.workout
+ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
+ orggs/runningplan/main/workouts/easy-8k.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
