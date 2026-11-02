@@ -7,39 +7,34 @@ creating a duplicate.
 
 from datetime import date, datetime, timedelta, timezone
 
-PACES = (
-    "Paces: easy 6:00-6:30/km (HR under ~143) | tempo 5:05-5:15/km | "
-    "5k pace 4:50-5:00/km | fast reps 4:35-4:45/km"
-)
-
 # (date, title, details)
 SESSIONS = [
     # Block 1, week 1
-    (date(2026, 11, 5), "Intervals: 6 x 800 m",
-     "1.5 km warm-up easy.\n6 x 800 m @ 4:45-4:50/km, 90 s walk between.\n1 km cool-down easy."),
-    (date(2026, 11, 7), "parkrun (easy)", "5 km easy, 6:00-6:30/km. Enjoy it."),
-    (date(2026, 11, 8), "Long run 10 km", "10 km easy, 6:00-6:30/km."),
+    (date(2026, 11, 5), "Intervals: 6 x 800m",
+     "1.5k warm-up at 6:00-6:30\nRepeat 6 times:\n800m at 4:45-4:50\n90s walk\n1k warm down"),
+    (date(2026, 11, 7), "parkrun (easy)", "5k at 6:00-6:30"),
+    (date(2026, 11, 8), "Long run 10k", "10k at 6:00-6:30"),
     # Week 2
-    (date(2026, 11, 10), "Easy 7 km + strides",
-     "7 km easy, then 6 x 15 s strides (fast but relaxed), walk back recovery."),
-    (date(2026, 11, 12), "Tempo: 2 x 2 km",
-     "2 km warm-up easy.\n2 x 2 km @ 5:10/km, 2 min easy jog between.\n1 km cool-down easy."),
-    (date(2026, 11, 14), "parkrun (HARD)", "Full effort 5 km. Target 4:55-5:00/km."),
-    (date(2026, 11, 15), "Long run 11 km", "11 km easy, 6:00-6:30/km."),
+    (date(2026, 11, 10), "Easy 7k + strides",
+     "7k at 6:00-6:30\nRepeat 6 times:\n15s stride (fast but relaxed)\nWalk back"),
+    (date(2026, 11, 12), "Tempo: 2 x 2k",
+     "2k warm-up at 6:00-6:30\nRepeat 2 times:\n2k at 5:10\n2 min easy jog\n1k warm down"),
+    (date(2026, 11, 14), "parkrun (HARD)", "5k full effort at 4:55-5:00"),
+    (date(2026, 11, 15), "Long run 11k", "11k at 6:00-6:30"),
     # Week 3
-    (date(2026, 11, 17), "Easy 7 km", "7 km conversational, 6:00-6:30/km."),
-    (date(2026, 11, 19), "Intervals: 5 x 1 km",
-     "1.5 km warm-up easy.\n5 x 1 km @ 4:50-4:55/km, 90 s walk between.\n1 km cool-down easy."),
-    (date(2026, 11, 21), "parkrun (easy)", "5 km easy, 6:00-6:30/km."),
-    (date(2026, 11, 22), "Long run 12 km, fast finish",
-     "9 km easy, then last 3 km @ 5:20/km."),
+    (date(2026, 11, 17), "Easy 7k", "7k at 6:00-6:30"),
+    (date(2026, 11, 19), "Intervals: 5 x 1k",
+     "1.5k warm-up at 6:00-6:30\nRepeat 5 times:\n1k at 4:50-4:55\n90s walk\n1k warm down"),
+    (date(2026, 11, 21), "parkrun (easy)", "5k at 6:00-6:30"),
+    (date(2026, 11, 22), "Long run 12k, fast finish",
+     "9k at 6:00-6:30\n3k at 5:20"),
     # Week 4 (lighter)
-    (date(2026, 11, 24), "Easy 5 km", "5 km easy. Lighter week."),
+    (date(2026, 11, 24), "Easy 5k", "5k at 6:00-6:30"),
     (date(2026, 11, 26), "Fartlek: 8 x 1 min",
-     "1.5 km warm-up easy.\n8 x (1 min fast ~4:40/km / 1 min easy).\n1 km cool-down easy."),
+     "1.5k warm-up at 6:00-6:30\nRepeat 8 times:\n1 min at 4:40\n1 min easy\n1k warm down"),
     (date(2026, 11, 28), "parkrun (HARD - benchmark)",
-     "Full effort 5 km. Compare with 14 Nov."),
-    (date(2026, 11, 29), "Long run 8 km", "8 km easy. Lighter week."),
+     "5k full effort at 4:55-5:00\nCompare with 14 Nov"),
+    (date(2026, 11, 29), "Long run 8k", "8k at 6:00-6:30"),
 ]
 
 
@@ -81,7 +76,7 @@ def build() -> str:
             f"DTSTART;VALUE=DATE:{d:%Y%m%d}",
             f"DTEND;VALUE=DATE:{d + timedelta(days=1):%Y%m%d}",
             f"SUMMARY:{esc(title)}",
-            f"DESCRIPTION:{esc(details + chr(10) + chr(10) + PACES)}",
+            f"DESCRIPTION:{esc(details)}",
             "TRANSP:TRANSPARENT",
             "END:VEVENT",
         ]
