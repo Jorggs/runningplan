@@ -100,7 +100,7 @@ def build() -> str:
                   + quote(url, safe=""))
             details += (f"\n\nLoad on Apple Watch: {sc}"
                         f"\n\nWorkout file: {url}")
-            extra = [f"URL:{sc}", f"ATTACH;FMTTYPE=application/octet-stream:{url}"]
+            extra = [f"URL:{url}"]
         lines += [
             "BEGIN:VEVENT",
             f"UID:{d:%Y%m%d}-run@runningplan",

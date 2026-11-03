@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:20261105-run@runningplan
-DTSTAMP:20261103T033611Z
+DTSTAMP:20261103T034119Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:Intervals: 6 x 800m
@@ -19,16 +19,13 @@ DESCRIPTION:1.5k warm-up at 6:00-6:30\nRepeat 6 times:\n800m at 4:45-4:50\n
  2FJorggs%2Frunningplan%2Fmain%2Fworkouts%2Fintervals-6x800m.workout\n\nWor
  kout file: https://raw.githubusercontent.com/Jorggs/runningplan/main/worko
  uts/intervals-6x800m.workout
-URL:shortcuts://run-shortcut?name=Open%20Workout&input=text&text=https%3A%2
- F%2Fraw.githubusercontent.com%2FJorggs%2Frunningplan%2Fmain%2Fworkouts%2Fi
- ntervals-6x800m.workout
-ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
- orggs/runningplan/main/workouts/intervals-6x800m.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/inte
+ rvals-6x800m.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261107-run@runningplan
-DTSTAMP:20261103T033611Z
+DTSTAMP:20261103T034119Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:parkrun (easy)
@@ -37,16 +34,13 @@ DESCRIPTION:5k at 6:00-6:30\n\nLoad on Apple Watch: shortcuts://run-shortcu
  com%2FJorggs%2Frunningplan%2Fmain%2Fworkouts%2Feasy-5k.workout\n\nWorkout 
  file: https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/e
  asy-5k.workout
-URL:shortcuts://run-shortcut?name=Open%20Workout&input=text&text=https%3A%2
- F%2Fraw.githubusercontent.com%2FJorggs%2Frunningplan%2Fmain%2Fworkouts%2Fe
- asy-5k.workout
-ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
- orggs/runningplan/main/workouts/easy-5k.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/easy
+ -5k.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261108-run@runningplan
-DTSTAMP:20261103T033611Z
+DTSTAMP:20261103T034119Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:Long run 10k
@@ -55,16 +49,13 @@ DESCRIPTION:10k at 6:00-6:30\n\nLoad on Apple Watch: shortcuts://run-shortc
  .com%2FJorggs%2Frunningplan%2Fmain%2Fworkouts%2Feasy-10k.workout\n\nWorkou
  t file: https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts
  /easy-10k.workout
-URL:shortcuts://run-shortcut?name=Open%20Workout&input=text&text=https%3A%2
- F%2Fraw.githubusercontent.com%2FJorggs%2Frunningplan%2Fmain%2Fworkouts%2Fe
- asy-10k.workout
-ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
- orggs/runningplan/main/workouts/easy-10k.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/easy
+ -10k.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261110-run@runningplan
-DTSTAMP:20261103T033611Z
+DTSTAMP:20261103T034119Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:Easy 7k + strides
@@ -74,16 +65,13 @@ DESCRIPTION:7k at 6:00-6:30\nRepeat 6 times:\n15s stride at 4:30-4:50\nWalk
  gplan%2Fmain%2Fworkouts%2Feasy-7k-strides.workout\n\nWorkout file: https:/
  /raw.githubusercontent.com/Jorggs/runningplan/main/workouts/easy-7k-stride
  s.workout
-URL:shortcuts://run-shortcut?name=Open%20Workout&input=text&text=https%3A%2
- F%2Fraw.githubusercontent.com%2FJorggs%2Frunningplan%2Fmain%2Fworkouts%2Fe
- asy-7k-strides.workout
-ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
- orggs/runningplan/main/workouts/easy-7k-strides.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/easy
+ -7k-strides.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261112-run@runningplan
-DTSTAMP:20261103T033611Z
+DTSTAMP:20261103T034119Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Tempo: 2 x 2k
@@ -93,16 +81,13 @@ DESCRIPTION:2k warm-up at 6:00-6:30\nRepeat 2 times:\n2k at 5:10\n2 min eas
  orggs%2Frunningplan%2Fmain%2Fworkouts%2Ftempo-2x2k.workout\n\nWorkout file
  : https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/tempo
  -2x2k.workout
-URL:shortcuts://run-shortcut?name=Open%20Workout&input=text&text=https%3A%2
- F%2Fraw.githubusercontent.com%2FJorggs%2Frunningplan%2Fmain%2Fworkouts%2Ft
- empo-2x2k.workout
-ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
- orggs/runningplan/main/workouts/tempo-2x2k.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/temp
+ o-2x2k.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261114-run@runningplan
-DTSTAMP:20261103T033611Z
+DTSTAMP:20261103T034119Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:parkrun (HARD)
@@ -111,16 +96,13 @@ DESCRIPTION:5k full effort at 4:55-5:00\n\nLoad on Apple Watch: shortcuts:/
  usercontent.com%2FJorggs%2Frunningplan%2Fmain%2Fworkouts%2Fparkrun-hard.wo
  rkout\n\nWorkout file: https://raw.githubusercontent.com/Jorggs/runningpla
  n/main/workouts/parkrun-hard.workout
-URL:shortcuts://run-shortcut?name=Open%20Workout&input=text&text=https%3A%2
- F%2Fraw.githubusercontent.com%2FJorggs%2Frunningplan%2Fmain%2Fworkouts%2Fp
- arkrun-hard.workout
-ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
- orggs/runningplan/main/workouts/parkrun-hard.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/park
+ run-hard.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261115-run@runningplan
-DTSTAMP:20261103T033611Z
+DTSTAMP:20261103T034119Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Long run 11k
@@ -129,16 +111,13 @@ DESCRIPTION:11k at 6:00-6:30\n\nLoad on Apple Watch: shortcuts://run-shortc
  .com%2FJorggs%2Frunningplan%2Fmain%2Fworkouts%2Feasy-11k.workout\n\nWorkou
  t file: https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts
  /easy-11k.workout
-URL:shortcuts://run-shortcut?name=Open%20Workout&input=text&text=https%3A%2
- F%2Fraw.githubusercontent.com%2FJorggs%2Frunningplan%2Fmain%2Fworkouts%2Fe
- asy-11k.workout
-ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
- orggs/runningplan/main/workouts/easy-11k.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/easy
+ -11k.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261117-run@runningplan
-DTSTAMP:20261103T033611Z
+DTSTAMP:20261103T034119Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Easy 7k
@@ -147,16 +126,13 @@ DESCRIPTION:7k at 6:00-6:30\n\nLoad on Apple Watch: shortcuts://run-shortcu
  com%2FJorggs%2Frunningplan%2Fmain%2Fworkouts%2Feasy-7k.workout\n\nWorkout 
  file: https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/e
  asy-7k.workout
-URL:shortcuts://run-shortcut?name=Open%20Workout&input=text&text=https%3A%2
- F%2Fraw.githubusercontent.com%2FJorggs%2Frunningplan%2Fmain%2Fworkouts%2Fe
- asy-7k.workout
-ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
- orggs/runningplan/main/workouts/easy-7k.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/easy
+ -7k.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261119-run@runningplan
-DTSTAMP:20261103T033611Z
+DTSTAMP:20261103T034119Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Intervals: 5 x 1k
@@ -166,16 +142,13 @@ DESCRIPTION:1.5k warm-up at 6:00-6:30\nRepeat 5 times:\n1k at 4:50-4:55\n90
  Jorggs%2Frunningplan%2Fmain%2Fworkouts%2Fintervals-5x1k.workout\n\nWorkout
   file: https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/
  intervals-5x1k.workout
-URL:shortcuts://run-shortcut?name=Open%20Workout&input=text&text=https%3A%2
- F%2Fraw.githubusercontent.com%2FJorggs%2Frunningplan%2Fmain%2Fworkouts%2Fi
- ntervals-5x1k.workout
-ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
- orggs/runningplan/main/workouts/intervals-5x1k.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/inte
+ rvals-5x1k.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261121-run@runningplan
-DTSTAMP:20261103T033611Z
+DTSTAMP:20261103T034119Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:parkrun (easy)
@@ -184,16 +157,13 @@ DESCRIPTION:5k at 6:00-6:30\n\nLoad on Apple Watch: shortcuts://run-shortcu
  com%2FJorggs%2Frunningplan%2Fmain%2Fworkouts%2Feasy-5k.workout\n\nWorkout 
  file: https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/e
  asy-5k.workout
-URL:shortcuts://run-shortcut?name=Open%20Workout&input=text&text=https%3A%2
- F%2Fraw.githubusercontent.com%2FJorggs%2Frunningplan%2Fmain%2Fworkouts%2Fe
- asy-5k.workout
-ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
- orggs/runningplan/main/workouts/easy-5k.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/easy
+ -5k.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261122-run@runningplan
-DTSTAMP:20261103T033611Z
+DTSTAMP:20261103T034119Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Long run 12k\, fast finish
@@ -202,16 +172,13 @@ DESCRIPTION:9k at 6:00-6:30\n3k at 5:20\n\nLoad on Apple Watch: shortcuts:/
  usercontent.com%2FJorggs%2Frunningplan%2Fmain%2Fworkouts%2Flong-12k-fast-f
  inish.workout\n\nWorkout file: https://raw.githubusercontent.com/Jorggs/ru
  nningplan/main/workouts/long-12k-fast-finish.workout
-URL:shortcuts://run-shortcut?name=Open%20Workout&input=text&text=https%3A%2
- F%2Fraw.githubusercontent.com%2FJorggs%2Frunningplan%2Fmain%2Fworkouts%2Fl
- ong-12k-fast-finish.workout
-ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
- orggs/runningplan/main/workouts/long-12k-fast-finish.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/long
+ -12k-fast-finish.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261124-run@runningplan
-DTSTAMP:20261103T033611Z
+DTSTAMP:20261103T034119Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Easy 5k
@@ -220,16 +187,13 @@ DESCRIPTION:5k at 6:00-6:30\n\nLoad on Apple Watch: shortcuts://run-shortcu
  com%2FJorggs%2Frunningplan%2Fmain%2Fworkouts%2Feasy-5k.workout\n\nWorkout 
  file: https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/e
  asy-5k.workout
-URL:shortcuts://run-shortcut?name=Open%20Workout&input=text&text=https%3A%2
- F%2Fraw.githubusercontent.com%2FJorggs%2Frunningplan%2Fmain%2Fworkouts%2Fe
- asy-5k.workout
-ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
- orggs/runningplan/main/workouts/easy-5k.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/easy
+ -5k.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261126-run@runningplan
-DTSTAMP:20261103T033611Z
+DTSTAMP:20261103T034119Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Fartlek: 8 x 1 min
@@ -239,16 +203,13 @@ DESCRIPTION:1.5k warm-up at 6:00-6:30\nRepeat 8 times:\n1 min at 4:40\n1 mi
  Jorggs%2Frunningplan%2Fmain%2Fworkouts%2Ffartlek-8x1min.workout\n\nWorkout
   file: https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/
  fartlek-8x1min.workout
-URL:shortcuts://run-shortcut?name=Open%20Workout&input=text&text=https%3A%2
- F%2Fraw.githubusercontent.com%2FJorggs%2Frunningplan%2Fmain%2Fworkouts%2Ff
- artlek-8x1min.workout
-ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
- orggs/runningplan/main/workouts/fartlek-8x1min.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/fart
+ lek-8x1min.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261128-run@runningplan
-DTSTAMP:20261103T033611Z
+DTSTAMP:20261103T034119Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:parkrun (HARD - benchmark)
@@ -257,16 +218,13 @@ DESCRIPTION:5k full effort at 4:55-5:00\nCompare with 14 Nov\n\nLoad on App
  ps%3A%2F%2Fraw.githubusercontent.com%2FJorggs%2Frunningplan%2Fmain%2Fworko
  uts%2Fparkrun-hard.workout\n\nWorkout file: https://raw.githubusercontent.
  com/Jorggs/runningplan/main/workouts/parkrun-hard.workout
-URL:shortcuts://run-shortcut?name=Open%20Workout&input=text&text=https%3A%2
- F%2Fraw.githubusercontent.com%2FJorggs%2Frunningplan%2Fmain%2Fworkouts%2Fp
- arkrun-hard.workout
-ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
- orggs/runningplan/main/workouts/parkrun-hard.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/park
+ run-hard.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20261129-run@runningplan
-DTSTAMP:20261103T033611Z
+DTSTAMP:20261103T034119Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Long run 8k
@@ -275,11 +233,8 @@ DESCRIPTION:8k at 6:00-6:30\n\nLoad on Apple Watch: shortcuts://run-shortcu
  com%2FJorggs%2Frunningplan%2Fmain%2Fworkouts%2Feasy-8k.workout\n\nWorkout 
  file: https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/e
  asy-8k.workout
-URL:shortcuts://run-shortcut?name=Open%20Workout&input=text&text=https%3A%2
- F%2Fraw.githubusercontent.com%2FJorggs%2Frunningplan%2Fmain%2Fworkouts%2Fe
- asy-8k.workout
-ATTACH;FMTTYPE=application/octet-stream:https://raw.githubusercontent.com/J
- orggs/runningplan/main/workouts/easy-8k.workout
+URL:https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/easy
+ -8k.workout
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
