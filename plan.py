@@ -39,7 +39,7 @@ SESSIONS = [
     (date(2026, 11, 8), "Long run 10k", "10k at 6:00-6:30"),
     # Week 2
     (date(2026, 11, 10), "Easy 7k + strides",
-     "7k at 6:00-6:30\nRepeat 6 times:\n15s stride (fast but relaxed)\nWalk back"),
+     "7k at 6:00-6:30\nRepeat 6 times:\n15s stride at 4:30-4:50\nWalk back"),
     (date(2026, 11, 12), "Tempo: 2 x 2k",
      "2k warm-up at 6:00-6:30\nRepeat 2 times:\n2k at 5:10\n2 min easy jog\n1k warm down"),
     (date(2026, 11, 14), "parkrun (HARD)", "5k full effort at 4:55-5:00"),

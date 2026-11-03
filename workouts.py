@@ -146,7 +146,7 @@ def build_all():
     w["Easy 7k + strides"] = workout(
         "Easy 7k + strides",
         [block([(WORK, step(dist(7000), EASY))], 1),
-         block([(WORK, step(secs(15))), (RECOVERY, step(secs(45)))], 6)])
+         block([(WORK, step(secs(15), ("4:30", "4:50"))), (RECOVERY, step(secs(45)))], 6)])
     w["Long 12k fast finish"] = workout(
         "Long 12k fast finish",
         [block([(WORK, step(dist(9000), EASY)),
