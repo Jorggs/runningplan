@@ -6,6 +6,7 @@ creating a duplicate.
 """
 
 from datetime import date, datetime, timedelta, timezone
+from urllib.parse import quote
 
 from workouts import slug
 
@@ -95,8 +96,11 @@ def build() -> str:
         extra = []
         if d in WORKOUT_FOR:
             url = RAW + slug(WORKOUT_FOR[d]) + ".workout"
-            details += f"\n\nApple Watch workout: {url}"
-            extra = [f"URL:{url}", f"ATTACH;FMTTYPE=application/octet-stream:{url}"]
+            sc = ("shortcuts://run-shortcut?name=Open%20Workout&input=text&text="
+                  + quote(url, safe=""))
+            details += (f"\n\nLoad on Apple Watch: {sc}"
+                        f"\n\nWorkout file: {url}")
+            extra = [f"URL:{sc}", f"ATTACH;FMTTYPE=application/octet-stream:{url}"]
         lines += [
             "BEGIN:VEVENT",
             f"UID:{d:%Y%m%d}-run@runningplan",
