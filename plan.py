@@ -95,7 +95,6 @@ def build() -> str:
         extra = []
         if d in WORKOUT_FOR:
             url = RAW + slug(WORKOUT_FOR[d]) + ".workout"
-            details += f"\n\nWorkout file: {url}"
             extra = [f"URL:{url}"]
         lines += [
             "BEGIN:VEVENT",
