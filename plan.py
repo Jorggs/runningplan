@@ -14,7 +14,6 @@ RAW = "https://raw.githubusercontent.com/Jorggs/runningplan/main/workouts/"
 
 # Which Apple Watch workout goes with each session (by date)
 WORKOUT_FOR = {
-    date(2026, 11, 4): "Easy 5k",  # TEST - remove
     date(2026, 11, 5): "Intervals 6x800m",
     date(2026, 11, 7): "Easy 5k",
     date(2026, 11, 8): "Easy 10k",
@@ -35,7 +34,6 @@ WORKOUT_FOR = {
 # (date, title, details)
 SESSIONS = [
     # Block 1, week 1
-    (date(2026, 11, 4), "TEST - sample run", "Test event for the Today's Run shortcut. Will be removed."),  # TEST - remove
     (date(2026, 11, 5), "Intervals: 6 x 800m",
      "1.5k warm-up at 6:00-6:30\nRepeat 6 times:\n800m at 4:45-4:50\n90s walk\n1k warm down"),
     (date(2026, 11, 7), "parkrun (easy)", "5k at 6:00-6:30"),
