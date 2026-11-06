@@ -117,8 +117,12 @@ def workout(name: str, blocks, warmup=None, cooldown=None, uid=None) -> bytes:
 EASY = ("6:00", "6:30")
 
 
-def single(name, metres, pace):
-    return workout(name, [block([(WORK, step(dist(metres), pace))], 1)])
+def single(name, metres, pace, uid=None):
+    return workout(name, [block([(WORK, step(dist(metres), pace))], 1)], uid=uid)
+
+
+def fixed_uid(key):
+    return str(uuid.uuid5(uuid.NAMESPACE_URL, "runningplan/" + key)).upper()
 
 
 def build_all():
@@ -151,7 +155,10 @@ def build_all():
         "Long 12k fast finish",
         [block([(WORK, step(dist(9000), EASY)),
                 (WORK, step(dist(3000), ("5:15", "5:25")))], 1)])
-    w["parkrun hard"] = single("parkrun hard", 5000, ("4:55", "5:00"))
+    # Both parkrun workouts are named just "parkrun" so that's the Strava title;
+    # the file name and ID tell them apart.
+    w["parkrun hard"] = single("parkrun", 5000, ("4:55", "5:00"), uid=fixed_uid("parkrun hard"))
+    w["parkrun easy"] = single("parkrun", 5000, EASY, uid=fixed_uid("parkrun easy"))
     for km in (5, 7, 8, 10, 11):
         w[f"Easy {km}k"] = single(f"Easy {km}k", km * 1000, EASY)
     return w
